@@ -1,0 +1,19 @@
+{
+  "article": {
+    "title": "Testing Apps",
+    "slug": "test",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "createdAt": "2016-04-04T13:12:00.859Z",
+    "updatedAt": "2016-04-04T13:12:00.859Z",
+    "tagList": ["testing", "apps"],
+    "description": "Learning the importance of testing",
+    "author": {
+      "username": "John",
+      "bio": null,
+      "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+      "following": false
+    },
+    "favorited": false,
+    "favoritesCount": 6
+  }
+}

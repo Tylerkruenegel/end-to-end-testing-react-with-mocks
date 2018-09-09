@@ -17,6 +17,11 @@ when('I select a popular tag', () => {
   cy.get('[test-id="tag"]').eq(0).click();
 });
 
+when('I select an article', () => {
+  cy.route(apiRoute.ARTICLE, 'fixture:articles/TestArticle.json').as('articleRequest');
+  cy.get('[test-id="article-preview"]').eq(0).click();
+});
+
 then('I see a list of 10 articles with correct fields', () => {
   const articles = articlesResponse.articles;
   articles.forEach((article) => {
@@ -41,4 +46,9 @@ then('a request is made to the articles api with the correct filter', () => {
 
 then('the feed toggle should have a tab for the tag active', () => {
   cy.get('[test-id="tag-nav-item"]').should('contain', tags.tags[0]);
+});
+
+then('I am taken to the article I selected', () => {
+  cy.wait('@articleRequest').its('url').should('include', 'api/articles/test');
+  cy.url().should('include', '/article/test');
 });

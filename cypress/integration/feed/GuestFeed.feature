@@ -13,5 +13,10 @@ Feature: Feature name
     Then a request is made to the articles api with the correct filter
     And the feed toggle should have a tab for the tag active
 
+  Scenario: As a user, I want to be taken to an article when I select it
+    Given I am a guest user entering the homepage
+    When I select an article
+    Then I am taken to the article I selected
+
 
   
