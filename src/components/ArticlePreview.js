@@ -34,17 +34,17 @@ const ArticlePreview = props => {
   };
 
   return (
-    <div className="article-preview">
+    <div className="article-preview" test-id="article-preview">
       <div className="article-meta">
         <Link to={`/@${article.author.username}`}>
           <img src={article.author.image} alt={article.author.username} />
         </Link>
 
         <div className="info">
-          <Link className="author" to={`/@${article.author.username}`}>
+          <Link className="author" test-id="article-author" to={`/@${article.author.username}`}>
             {article.author.username}
           </Link>
-          <span className="date">
+          <span className="date" test-id="article-post-date">
             {new Date(article.createdAt).toDateString()}
           </span>
         </div>

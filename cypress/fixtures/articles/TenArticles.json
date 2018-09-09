@@ -1,0 +1,44 @@
+{
+    "articles": [
+        {
+            "title": "Best Article",
+            "slug": "adsf-wnog3p",
+            "body": "This article has a lot of information",
+            "createdAt": "2018-08-19T03:16:14.429Z",
+            "updatedAt": "2018-08-19T03:16:14.429Z",
+            "tagList": [],
+            "description": "This article will teach you something",
+            "author": {
+                "username": "User 1",
+                "bio": "User 1 is a pretty good writer",
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            },
+            "favorited": false,
+            "favoritesCount": 3
+        },
+        {
+            "title": "Testy 2",
+            "slug": "test-u9d1i6",
+            "body": "some really important stuff",
+            "createdAt": "2018-08-18T22:24:50.368Z",
+            "updatedAt": "2018-08-18T22:24:50.368Z",
+            "tagList": [
+                "javascript",
+                "cypress",
+                "testing",
+                "automation"
+            ],
+            "description": "Testing Talk",
+            "author": {
+                "username": "Joe Tester",
+                "bio": null,
+                "image": "https://oops.thiswontwork.com/really-broken",
+                "following": false
+            },
+            "favorited": false,
+            "favoritesCount": 0
+        }
+    ],
+    "articlesCount": 2
+}
