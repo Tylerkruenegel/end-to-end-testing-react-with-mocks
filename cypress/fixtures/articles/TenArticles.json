@@ -1,44 +1,179 @@
 {
-    "articles": [
-        {
-            "title": "Best Article",
-            "slug": "adsf-wnog3p",
-            "body": "This article has a lot of information",
-            "createdAt": "2018-08-19T03:16:14.429Z",
-            "updatedAt": "2018-08-19T03:16:14.429Z",
-            "tagList": [],
-            "description": "This article will teach you something",
-            "author": {
-                "username": "User 1",
-                "bio": "User 1 is a pretty good writer",
-                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
-                "following": false
-            },
-            "favorited": false,
-            "favoritesCount": 3
-        },
-        {
-            "title": "Testy 2",
-            "slug": "test-u9d1i6",
-            "body": "some really important stuff",
-            "createdAt": "2018-08-18T22:24:50.368Z",
-            "updatedAt": "2018-08-18T22:24:50.368Z",
-            "tagList": [
-                "javascript",
-                "cypress",
-                "testing",
-                "automation"
-            ],
-            "description": "Testing Talk",
-            "author": {
-                "username": "Joe Tester",
-                "bio": null,
-                "image": "https://oops.thiswontwork.com/really-broken",
-                "following": false
-            },
-            "favorited": false,
-            "favoritesCount": 0
-        }
-    ],
-    "articlesCount": 2
+  "articles": [
+    {
+      "title": "Testing apps",
+      "slug": "test",
+      "body": "testing apps is extremely important",
+      "createdAt": "2018-09-09T04:20:15.860Z",
+      "updatedAt": "2018-09-09T04:20:15.860Z",
+      "tagList": ["testing", "apps"],
+      "description": "Learning the importance of testing",
+      "author": {
+        "username": "John",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Go Test",
+      "slug": "go-test1922",
+      "body": "Go test the things to ensure quality",
+      "createdAt": "2018-09-09T03:09:32.885Z",
+      "updatedAt": "2018-09-09T03:09:32.885Z",
+      "tagList": ["testing", "quality"],
+      "description": "333",
+      "author": {
+        "username": "fadfasf",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 2
+    },
+    {
+      "title": "Test Santos",
+      "slug": "test-santos-gtt812",
+      "body": "Article test santos.",
+      "createdAt": "2018-09-09T02:10:30.493Z",
+      "updatedAt": "2018-09-09T02:10:30.493Z",
+      "tagList": [],
+      "description": "About All",
+      "author": {
+        "username": "kallebesantos",
+        "bio": null,
+        "image": "https://steemit.com/assets/c46512435eeb73a69061092ca873fb7d.png",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 3
+    },
+    {
+      "title": "dddddd",
+      "slug": "dddddd-fozgrl",
+      "body": "ddddddd",
+      "createdAt": "2018-09-09T01:30:35.286Z",
+      "updatedAt": "2018-09-09T01:30:35.286Z",
+      "tagList": [],
+      "description": "dddddddddd",
+      "author": {
+        "username": "qiurenbo",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Aurelia is amazing",
+      "slug": "aurelia-is-amazing-r15nfp",
+      "body": "I have learnt React. Some of my friends are fans of Vue.js.\nI had a look at Aurelia and I felt in love with the framework.\nIt makes a heavy usage of bindings in a very straightforward way.\nConvention over configuration, few abstractions, close to vanilla js. Aurelia is amazing! ",
+      "createdAt": "2018-09-08T20:49:34.890Z",
+      "updatedAt": "2018-09-08T20:49:34.890Z",
+      "tagList": [
+        "Aurelia Front-End Javascript Framework"
+      ],
+      "description": "Amazed by Aurelia",
+      "author": {
+        "username": "Guillaume",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Whoohoo",
+      "slug": "whoohoo-m9ch51",
+      "body": "# It's alive.",
+      "createdAt": "2018-09-08T20:08:10.215Z",
+      "updatedAt": "2018-09-08T20:08:10.215Z",
+      "tagList": [],
+      "description": ":)",
+      "author": {
+        "username": "lkasdjflkdl",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "420",
+      "slug": "420-rwms0l",
+      "body": "hehe\ntest",
+      "createdAt": "2018-09-08T19:12:33.577Z",
+      "updatedAt": "2018-09-08T19:12:33.577Z",
+      "tagList": [],
+      "description": "not your businesszz",
+      "author": {
+        "username": "123435",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "test",
+      "slug": "test-tw585d",
+      "body": "ssdfsdfsd",
+      "createdAt": "2018-09-08T17:42:37.047Z",
+      "updatedAt": "2018-09-08T17:42:37.047Z",
+      "tagList": [
+        "test"
+      ],
+      "description": "tests",
+      "author": {
+        "username": "zeetarian",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "foo bar",
+      "slug": "foo-bar-uxf8ee",
+      "body": "foo baar baar foo",
+      "createdAt": "2018-09-08T17:20:34.087Z",
+      "updatedAt": "2018-09-08T17:20:34.087Z",
+      "tagList": [],
+      "description": "FOO FOO ... OOF",
+      "author": {
+        "username": "reig",
+        "bio": "foo bar",
+        "image": "",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 3
+    },
+    {
+      "title": "Foo Power",
+      "slug": "foo-power-pl0qn5",
+      "body": "# Foo\n\nThe *power* of foo is bar.  The bar of foo is foobar.\n\nFoo bar foo",
+      "createdAt": "2018-09-08T17:06:31.020Z",
+      "updatedAt": "2018-09-08T17:07:54.406Z",
+      "tagList": [],
+      "description": "The power of foo",
+      "author": {
+        "username": "fooman",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    }
+  ],
+  "articlesCount": 500
 }
