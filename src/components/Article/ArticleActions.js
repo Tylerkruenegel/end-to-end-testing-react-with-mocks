@@ -9,7 +9,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch({ type: DELETE_ARTICLE, payload })
 });
 
-const ArticleActions = props => {
+const ArticleActions = (props) => {
   const article = props.article;
   const del = () => {
     props.onClickDelete(agent.Articles.del(article.slug))
@@ -20,12 +20,15 @@ const ArticleActions = props => {
 
         <Link
           to={`/editor/${article.slug}`}
-          className="btn btn-outline-secondary btn-sm">
-          <i className="ion-edit"></i> Edit Article
+          className="btn btn-outline-secondary btn-sm"
+        >
+          <i className="ion-edit" />
+          Edit Article
         </Link>
 
         <button className="btn btn-outline-danger btn-sm" onClick={del}>
-          <i className="ion-trash-a"></i> Delete Article
+          <i className="ion-trash-a" />
+           Delete Article
         </button>
 
       </span>

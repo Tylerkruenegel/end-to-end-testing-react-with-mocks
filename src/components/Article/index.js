@@ -12,10 +12,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  onLoad: payload =>
-    dispatch({ type: ARTICLE_PAGE_LOADED, payload }),
-  onUnload: () =>
-    dispatch({ type: ARTICLE_PAGE_UNLOADED })
+  onLoad: payload => dispatch({ type: ARTICLE_PAGE_LOADED, payload }),
+  onUnload: () => dispatch({ type: ARTICLE_PAGE_UNLOADED })
 });
 
 class Article extends React.Component {
@@ -47,7 +45,8 @@ class Article extends React.Component {
             <h1>{this.props.article.title}</h1>
             <ArticleMeta
               article={this.props.article}
-              canModify={canModify} />
+              canModify={canModify}
+            />
 
           </div>
         </div>
@@ -57,15 +56,17 @@ class Article extends React.Component {
           <div className="row article-content">
             <div className="col-xs-12">
 
-              <div dangerouslySetInnerHTML={markup}></div>
+              <div test-id="article-body" dangerouslySetInnerHTML={markup}></div>
 
-              <ul className="tag-list">
+              <ul test-id="tag-list" className="tag-list">
                 {
-                  this.props.article.tagList.map(tag => {
+                  this.props.article.tagList.map((tag) => {
                     return (
                       <li
+                        test-id="tag"
                         className="tag-default tag-pill tag-outline"
-                        key={tag}>
+                        key={tag}
+                      >
                         {tag}
                       </li>
                     );
@@ -86,7 +87,8 @@ class Article extends React.Component {
               comments={this.props.comments || []}
               errors={this.props.commentErrors}
               slug={this.props.match.params.id}
-              currentUser={this.props.currentUser} />
+              currentUser={this.props.currentUser} 
+            />
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
-import ArticleActions from './ArticleActions';
-import { Link } from 'react-router-dom';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import ArticleActions from './ArticleActions';
 
-const ArticleMeta = props => {
+
+const ArticleMeta = (props) => {
   const article = props.article;
   return (
     <div className="article-meta">
@@ -11,10 +12,10 @@ const ArticleMeta = props => {
       </Link>
 
       <div className="info">
-        <Link to={`/@${article.author.username}`} className="author">
+        <Link test-id="article-author" to={`/@${article.author.username}`} className="author">
           {article.author.username}
         </Link>
-        <span className="date">
+        <span test-id="article-post-date" className="date">
           {new Date(article.createdAt).toDateString()}
         </span>
       </div>
