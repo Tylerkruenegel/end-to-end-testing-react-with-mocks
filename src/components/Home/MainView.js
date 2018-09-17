@@ -12,7 +12,7 @@ const YourFeedTab = (props) => {
     };
 
     return (
-      <li test-id="nav-item" className="nav-item">
+      <li test-id="my-feed-nav-item" className="nav-item">
         <a
           href=""
           className={props.tab === 'feed' ? 'nav-link active' : 'nav-link'}
@@ -32,7 +32,7 @@ const GlobalFeedTab = (props) => {
     props.onTabClick('all', agent.Articles.all, agent.Articles.all());
   };
   return (
-    <li className="nav-item">
+    <li test-id="global-feed-nav-item"className="nav-item">
       <a
         href=""
         className={props.tab === 'all' ? 'nav-link active' : 'nav-link'}
@@ -50,7 +50,7 @@ const TagFilterTab = (props) => {
   }
 
   return (
-    <li className="nav-item">
+    <li test-id="tag-filter-nav-item" className="nav-item">
       <a
         test-id="tag-nav-item"
         href=""

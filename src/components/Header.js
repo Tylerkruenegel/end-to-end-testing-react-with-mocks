@@ -1,25 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LoggedOutView = props => {
+const LoggedOutView = (props) => {
   if (!props.currentUser) {
     return (
       <ul className="nav navbar-nav pull-xs-right">
 
         <li className="nav-item">
-          <Link to="/" className="nav-link">
+          <Link test-id="home-button" to="/" className="nav-link">
             Home
           </Link>
         </li>
 
         <li className="nav-item">
-          <Link to="/login" className="nav-link">
+          <Link test-id="login-button" to="/login" className="nav-link">
             Sign in
           </Link>
         </li>
 
         <li className="nav-item">
-          <Link to="/register" className="nav-link">
+          <Link test-id="signup-button" to="/register" className="nav-link">
             Sign up
           </Link>
         </li>
@@ -30,33 +30,36 @@ const LoggedOutView = props => {
   return null;
 };
 
-const LoggedInView = props => {
+const LoggedInView = (props) => {
   if (props.currentUser) {
     return (
       <ul className="nav navbar-nav pull-xs-right">
 
-        <li className="nav-item">
+        <li test-id="home-button" className="nav-item">
           <Link to="/" className="nav-link">
             Home
           </Link>
         </li>
 
-        <li className="nav-item">
+        <li test-id="editor-button" className="nav-item">
           <Link to="/editor" className="nav-link">
-            <i className="ion-compose"></i>&nbsp;New Post
+            <i className="ion-compose" />
+&nbsp;New Post
           </Link>
         </li>
 
-        <li className="nav-item">
+        <li test-id="settings-button" className="nav-item">
           <Link to="/settings" className="nav-link">
-            <i className="ion-gear-a"></i>&nbsp;Settings
+            <i className="ion-gear-a" />
+&nbsp;Settings
           </Link>
         </li>
 
-        <li className="nav-item">
+        <li test-id="profile-button" className="nav-item">
           <Link
             to={`/@${props.currentUser.username}`}
-            className="nav-link">
+            className="nav-link"
+          >
             <img src={props.currentUser.image} className="user-pic" alt={props.currentUser.username} />
             {props.currentUser.username}
           </Link>

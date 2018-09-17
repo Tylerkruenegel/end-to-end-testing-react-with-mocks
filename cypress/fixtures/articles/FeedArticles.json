@@ -1,0 +1,175 @@
+{
+  "articles": [
+    {
+      "title": "Cypress",
+      "slug": "cypress-8xq3cd",
+      "body": "Its really easy to mock",
+      "createdAt": "2018-09-16T20:03:41.232Z",
+      "updatedAt": "2018-09-16T20:03:41.232Z",
+      "tagList": [],
+      "description": "Working with Cypress",
+      "author": {
+        "username": "tkru",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": true,
+      "favoritesCount": 1
+    },
+    {
+      "title": "article #2",
+      "slug": "article-2-joiyah",
+      "body": "hot dog",
+      "createdAt": "2018-09-16T19:44:26.250Z",
+      "updatedAt": "2018-09-16T19:44:26.250Z",
+      "tagList": [],
+      "description": "hot dog",
+      "author": {
+        "username": "liub",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": true,
+      "favoritesCount": 1
+    },
+    {
+      "title": "article #1",
+      "slug": "article-1-ymr7sy",
+      "body": "soup soup soup",
+      "createdAt": "2018-09-16T19:43:54.025Z",
+      "updatedAt": "2018-09-16T19:43:54.025Z",
+      "tagList": [],
+      "description": "soup",
+      "author": {
+        "username": "liub",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "It's really cool",
+      "slug": "it-s-really-cool-xq3hwq",
+      "body": "Hey Broh How Are You?\n\n:D",
+      "createdAt": "2018-09-16T19:22:04.253Z",
+      "updatedAt": "2018-09-16T19:22:48.344Z",
+      "tagList": [],
+      "description": "Testtt",
+      "author": {
+        "username": "koushik7n",
+        "bio": null,
+        "image": "",
+        "following": false
+      },
+      "favorited": true,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Testing 123",
+      "slug": "testing-123-s5d4by",
+      "body": "just testing",
+      "createdAt": "2018-09-16T19:06:15.405Z",
+      "updatedAt": "2018-09-16T19:06:15.405Z",
+      "tagList": [],
+      "description": "hello",
+      "author": {
+        "username": "esom",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": true,
+      "favoritesCount": 1
+    },
+    {
+      "title": "lol",
+      "slug": "lol-nm2ddy",
+      "body": "orfreprfnrnj\n3riojwojr\\\nporj43[43jr\n\\43r34r",
+      "createdAt": "2018-09-16T17:39:53.123Z",
+      "updatedAt": "2018-09-16T17:39:53.123Z",
+      "tagList": [],
+      "description": "lolo",
+      "author": {
+        "username": "люб",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Testing article",
+      "slug": "testing-article-8dslwk",
+      "body": "qwerty",
+      "createdAt": "2018-09-16T17:20:37.456Z",
+      "updatedAt": "2018-09-16T17:20:37.456Z",
+      "tagList": [],
+      "description": "About testing this app",
+      "author": {
+        "username": "fforbooks",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "asd",
+      "slug": "asd-s1n5lo",
+      "body": "asd",
+      "createdAt": "2018-09-16T16:42:32.175Z",
+      "updatedAt": "2018-09-16T16:42:32.175Z",
+      "tagList": [],
+      "description": "asd",
+      "author": {
+        "username": "andjimrio",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Test2",
+      "slug": "test2-r35722",
+      "body": "Test2",
+      "createdAt": "2018-09-16T14:06:43.659Z",
+      "updatedAt": "2018-09-16T14:06:43.659Z",
+      "tagList": [],
+      "description": "Test2",
+      "author": {
+        "username": "archie60",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Test",
+      "slug": "test-qxwv21",
+      "body": "Testing",
+      "createdAt": "2018-09-16T14:06:15.794Z",
+      "updatedAt": "2018-09-16T14:06:15.794Z",
+      "tagList": [],
+      "description": "Testing",
+      "author": {
+        "username": "archie60",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 2
+    }
+  ],
+  "articlesCount": 500
+}

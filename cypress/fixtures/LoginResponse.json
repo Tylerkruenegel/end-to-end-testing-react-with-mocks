@@ -1,0 +1,12 @@
+{
+  "user": {
+    "id": 37676,
+    "email": "test@test.com",
+    "createdAt": "2018-09-15T20:02:48.436Z",
+    "updatedAt": "2018-09-15T20:02:48.442Z",
+    "username": "Tkru",
+    "bio": null,
+    "image": "https://pbs.twimg.com/profile_images/715181587596505088/WCV1ZBXh_400x400.jpg",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Mzc2NzYsInVzZXJuYW1lIjoiVGtydSIsImV4cCI6MTU0MjIyNTg0OH0.RgeBUCUAULEBFSYVAkMrXgLYMGC5RJRpEAYs1WFPNAI"
+  }
+}
