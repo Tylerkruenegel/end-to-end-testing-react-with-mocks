@@ -16,3 +16,7 @@ Feature: User can view an article
     Given I am a user viewing an article
     When I delete one of my own comments
     Then I no longer see the comment I deleted
+
+  Scenario: As a user, I should not be able to delete others comments
+    Given I am a user viewing an article
+    Then I do not see the delete icon for other users comments

@@ -79,4 +79,10 @@ then('I see a list of comments', () => {
       cy.get('[test-id="comment-body"]').should('not.contain', commentsResponse.comments[0].body);
     });
   });
+
+  then('I do not see the delete icon for other users comments', () => {
+    cy.get('[test-id="comment"]').eq(1).within(() => {
+      cy.get('[test-id="delete-button"]').should('not.exist');
+    });
+  });
 });
