@@ -4,5 +4,6 @@ export const FEED = '/api/articles/feed?limit=10&**';
 export const TAGS = '/api/tags';
 export const ARTICLE = '/api/articles/*';
 export const COMMENTS = '/api/articles/*/comments';
+export const DELETECOMMENT = 'api/articles/*/comments/*';
 export const LOGIN = '/api/users/login';
 export const USER = '/api/user';

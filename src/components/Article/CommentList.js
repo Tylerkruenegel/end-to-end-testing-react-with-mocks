@@ -6,7 +6,7 @@ const CommentList = props => (
     {
         props.comments.map(comment => (
           <Comment
-            test-id = "comment"
+            test-id="comment"
             comment={comment}
             currentUser={props.currentUser}
             slug={props.slug}

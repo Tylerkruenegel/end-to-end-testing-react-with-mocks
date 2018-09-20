@@ -35,7 +35,6 @@ const Comment = (props) => {
           {new Date(comment.createdAt).toDateString()}
         </span>
         <DeleteButton
-          test-id="delete-button"
           show={show}
           slug={props.slug}
           commentId={comment.id}

@@ -1,74 +1,14 @@
 {
   "comments": [
     {
-      "id": 4673,
-      "createdAt": "2017-07-13T12:09:35.586Z",
-      "updatedAt": "2017-07-13T12:09:35.586Z",
-      "body": "this is a solid comment",
-      "author": {
-        "username": "testlawone",
-        "bio": null,
-        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
-        "following": false
-      }
-    },
-    {
-      "id": 4596,
-      "createdAt": "2017-07-08T13:54:08.581Z",
-      "updatedAt": "2017-07-08T13:54:08.581Z",
-      "body": "test",
-      "author": {
-        "username": "officerlahee",
-        "bio": null,
-        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
-        "following": false
-      }
-    },
-    {
-      "id": 2254,
-      "createdAt": "2017-04-12T19:31:55.655Z",
-      "updatedAt": "2017-04-12T19:31:55.655Z",
-      "body": "Lorem ipsum dolor sit amet",
-      "author": {
-        "username": "fabio.shiro",
-        "bio": null,
-        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
-        "following": false
-      }
-    },
-    {
       "id": 793,
       "createdAt": "2016-11-12T16:22:57.012Z",
       "updatedAt": "2016-11-12T16:22:57.012Z",
       "body": "Lorem ipsum dolor sit amet,sed do eiusmod tempor incididunt ut labore et dolore m",
       "author": {
-        "username": "de",
+        "username": "Tkru",
         "bio": "test",
-        "image": "http://lorempixel.com/output/abstract-q-g-640-480-1.jpg",
-        "following": false
-      }
-    },
-    {
-      "id": 792,
-      "createdAt": "2016-11-12T16:22:51.620Z",
-      "updatedAt": "2016-11-12T16:22:51.620Z",
-      "body": "labore et dolore m",
-      "author": {
-        "username": "de",
-        "bio": "test",
-        "image": "http://lorempixel.com/output/abstract-q-g-640-480-1.jpg",
-        "following": false
-      }
-    },
-    {
-      "id": 791,
-      "createdAt": "2016-11-12T16:20:57.190Z",
-      "updatedAt": "2016-11-12T16:20:57.190Z",
-      "body": "Lorem ipsum tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore m",
-      "author": {
-        "username": "de",
-        "bio": "test",
-        "image": "http://lorempixel.com/output/abstract-q-g-640-480-1.jpg",
+        "image": "https://pbs.twimg.com/profile_images/715181587596505088/WCV1ZBXh_400x400.jpg",
         "following": false
       }
     },
@@ -85,46 +25,10 @@
       }
     },
     {
-      "id": 789,
-      "createdAt": "2016-11-12T16:20:51.033Z",
-      "updatedAt": "2016-11-12T16:20:51.033Z",
-      "body": "Lo ut labore et dolore m",
-      "author": {
-        "username": "de",
-        "bio": "test",
-        "image": "http://lorempixel.com/output/abstract-q-g-640-480-1.jpg",
-        "following": false
-      }
-    },
-    {
-      "id": 788,
-      "createdAt": "2016-11-12T16:20:45.655Z",
-      "updatedAt": "2016-11-12T16:20:45.655Z",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisabore et dolore m",
-      "author": {
-        "username": "de",
-        "bio": "test",
-        "image": "http://lorempixel.com/output/abstract-q-g-640-480-1.jpg",
-        "following": false
-      }
-    },
-    {
       "id": 360,
       "createdAt": "2016-07-24T10:59:38.623Z",
       "updatedAt": "2016-07-24T10:59:38.623Z",
       "body": "fLorem ippor incididunt ut labore et dolore m",
-      "author": {
-        "username": "demo1234",
-        "bio": null,
-        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
-        "following": false
-      }
-    },
-    {
-      "id": 356,
-      "createdAt": "2016-07-23T10:18:13.305Z",
-      "updatedAt": "2016-07-23T10:18:13.305Z",
-      "body": "Lorem ipsum dolor siut labore et dolore m",
       "author": {
         "username": "demo1234",
         "bio": null,
